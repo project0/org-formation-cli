@@ -136,7 +136,7 @@ export class CdkBuildTaskPlugin implements IBuildTaskPlugin<ICdkBuildTaskConfig,
             }
 
             if (task.maxConcurrent > 1) {
-                command = command + `--output cdk.out/${target.accountId}`;
+                command = command + ` --output cdk.out/${target.accountId}`;
             }
         }
 
@@ -166,7 +166,7 @@ export class CdkBuildTaskPlugin implements IBuildTaskPlugin<ICdkBuildTaskConfig,
             }
 
             if (task.maxConcurrent > 1) {
-                command = command + `--output cdk.out/${target.accountId}`;
+                command = command + ` --output cdk.out/${target.accountId}`;
             }
         }
 
